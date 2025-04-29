@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery | Royal Furniture</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f9f9f9;
+    }
+    .gallery-img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+    .gallery-img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background-color: #001f3f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Royal Furniture</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Heading -->
+<header class="py-5 text-center bg-light">
+  <div class="container">
+    <h1 class="display-5">Gallery</h1>
+    <p class="lead">Explore our beautifully crafted furniture in real spaces and showrooms.</p>
+  </div>
+</header>
+
+<!-- Gallery Section -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Gallery Image 1 -->
+      <div class="col-md-4">
+        <img src="https://www.estre.in/cdn/shop/files/1-min_fc2e5569-9bfc-4765-9cff-9f0a0cfa719f.png?v=1743762874
+" alt="Sofa Set" class="gallery-img">
+      </div>
+
+      <!-- Gallery Image 2 -->
+      <div class="col-md-4">
+        <img src="https://blog.woodenstreet.com/images/data/image_upload/1723294096top-15-bed-back-design.jpg" alt="Bedroom Furniture" class="gallery-img">
+      </div>
+
+      <!-- Gallery Image 3 -->
+      <div class="col-md-4">
+        <img src="https://woodenbazar.com/cdn/shop/files/luxury-10-seater-royal-dining-table-set-wooden-bazar-121.webp?v=1729442318" alt="Dining Area" class="gallery-img">
+      </div>
+
+      <!-- Gallery Image 4 -->
+      <div class="col-md-4">
+        <img src="https://cdn.accentuate.io/200496611478/1667210510090/Office-Chairs---Mobile-%E2%80%93-1-V2-Leap.webp?v=1670898849250" alt="Office Desk" class="gallery-img">
+      </div>
+
+      <!-- Gallery Image 5 -->
+      <div class="col-md-4">
+        <img src="https://i.ytimg.com/vi/czhnmzFVyrg/maxresdefault.jpg" alt="Modular Kitchen" class="gallery-img">
+      </div>
+
+      <!-- Gallery Image 6 -->
+      <div class="col-md-4">
+        <img src="https://media.designcafe.com/wp-content/uploads/2023/12/13173921/corner-tv-unit-design.jpg" alt="Showroom Display" class="gallery-img">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>&copy; Royal Furniture | Amravati, Maharashtra, 444601 | +91 9423275847 | royalfurniture@gmail.com </p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
